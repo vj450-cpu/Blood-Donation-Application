@@ -1,0 +1,51 @@
+
+name: blood_donation_full
+description: Upgraded Blood Donation Flutter app (no Firebase). Feature-rich and visually improved.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+# Core Firebase
+  firebase_core: ^4.1.1
+
+  # Firestore (if you use it)
+  cloud_firestore: ^6.0.2
+
+  # Firebase Storage
+  firebase_storage: ^13.0.2
+
+  # Auth (if used)
+  firebase_auth: ^6.1.0
+
+  # For Flutter web interop fixes
+  js: ^0.7.0
+  provider: ^6.1.2
+  intl: ^0.20.2
+  qr_flutter: ^4.1.0
+  image_picker: ^1.2.0
+  geocoding: ^4.0.0
+  flutter_svg: ^2.2.1
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.0
+  google_fonts: ^6.1.0
+  google_maps_flutter: ^2.1.1
+  flutter_google_places_sdk: ^0.4.2+1
+  url_launcher: ^6.2.2
+  uuid: ^4.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
